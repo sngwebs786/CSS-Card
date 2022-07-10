@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SERVICES  */
+
+.services-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services-cards div{
+    margin-top: 10px;
+    height: 350px;
+    width: 400px;
+    padding-top: 30px !important;
+}
+
+.services-cards div:hover{
+    box-shadow: 5px 5px 35px rgb(202, 200, 200);
+    background-color: #d2f5ac;
+    transition: 0.5s;
+}
+
+
+.services-cards div button{
+    color: #74e200;
+    border: #74e200;
+    background-color: #575757;
+    height: 60px;
+    width: 270px;
+}
